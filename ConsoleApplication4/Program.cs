@@ -17,7 +17,7 @@ namespace ConsoleApplication4
             // Speak a string.
             synth.Speak("This example demonstrates a basic use of Speech Synthesizer");
             synth.Speak("Press any key to exit...");
-
+            synth.Speak("None");
             Console.WriteLine();
             Console.WriteLine("Press any key to exit...");
             Console.ReadKey();
